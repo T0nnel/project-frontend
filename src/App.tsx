@@ -13,6 +13,7 @@ import { SellPage } from './pages/sell/sell'
 import { MyList } from './pages/mylist/mylistpage'
 import { DefaultHome } from './pages/Home/DefaultHome'
 import { ProductProvider } from './pages/context/productcontext'
+import { AiProduct } from './pages/ai/ai'
 
 
 
@@ -36,6 +37,7 @@ function App() {
       <Route path="/sellpage" element={<SellPage />} />
       <Route path="/list" element={<MyList />} />
       <Route path="/defhome" element={<DefaultHome />} />
+      <Route path="/ai" element={<AiProduct />} />
 
     </Routes>
     </div>

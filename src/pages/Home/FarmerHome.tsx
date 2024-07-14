@@ -21,7 +21,7 @@ export const FarmerHome: React.FC = () => {
 
   const fetchProducts = async () => {
     try {
-      const response = await fetch('http://localhost:5000/products');
+      const response = await fetch('https://project-backend-2-fgej.onrender.com/products');
       if (response.ok) {
         const data: Product[] = await response.json();
         setProducts(data);

@@ -1,10 +1,7 @@
 import { Link } from 'react-router-dom'
 import './landingpage.css'
-/* import { Footer } from '../../components/Footer' */
 
-/* import searchBar from '../../components/searchbar'
-
- */export const Landingpage = () => {
+ export const Landingpage = () => {
   return (
     <>
       <div className='header1'> 
@@ -64,6 +61,9 @@ import './landingpage.css'
       <p>If you want to receive emails with recent updates about our site and whats new.<br/>Follow the link below and fill the form :P</p>
      <a href="https://forms.gle/XbQjuKhSKNLquRUdA"><img src="/images/b4.png" alt="" /></a>
     </div>
+    <div>
+      </div>
   </>
+  
   )
 }
