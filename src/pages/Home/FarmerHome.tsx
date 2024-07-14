@@ -57,7 +57,7 @@ export const FarmerHome: React.FC = () => {
       // Clear user authentication data
       localStorage.removeItem('userToken'); // Adjust according to your auth mechanism
       // Redirect to the login page
-      navigate('/home'); // Adjust to your login route
+      navigate('/defhome'); // Adjust to your login route
     };
   
 
