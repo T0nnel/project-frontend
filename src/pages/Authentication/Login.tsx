@@ -29,7 +29,7 @@ export const Login: React.FC = () => {
         }
 
         try {
-            const response = await axios.post('http://localhost:5000/api/login', { email, password });
+            const response = await axios.post('https://project-backend-2-fgej.onrender.com/api/login', { email, password });
             if (response.status === 200) {
                 const { persona, _id } = response.data;
                 dispatch(login({ persona, userId: _id }));

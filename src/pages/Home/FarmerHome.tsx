@@ -36,7 +36,7 @@ export const FarmerHome: React.FC = () => {
 
   const handleRemove = async (id: string) => {
     try {
-      const response = await fetch(`http://localhost:5000/products/${id}`, {
+      const response = await fetch(`https://project-backend-2-fgej.onrender.com/products/${id}`, {
         method: 'DELETE',
       });
       if (response.ok) {
@@ -65,7 +65,7 @@ export const FarmerHome: React.FC = () => {
     <>
       <div className='header3'>
         <div className='header4'>
-          <a href=""><img src="../../public/images/p2.png" alt="" /></a>
+          <a href=""><img src="/images/p2.png" alt="" /></a>
           <nav>
             <div className="nav-link">
               <ul>

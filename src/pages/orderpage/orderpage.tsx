@@ -11,7 +11,7 @@ export const Orderpage = () => {
   const handleTrack = async (event: { preventDefault: () => void; }) => {
     event.preventDefault();
 
-    const response = await fetch('http://localhost:5000/track', {
+    const response = await fetch('https://project-backend-2-fgej.onrender.com/track', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

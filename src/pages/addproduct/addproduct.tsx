@@ -17,7 +17,7 @@ export const Addproduct = () => {
     const newProduct = { description, location, harvestTime, price, contact };
 
     try {
-      const response = await fetch('http://localhost:5000/addproducts', {
+      const response = await fetch('https://project-backend-2-fgej.onrender.com/addproducts', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

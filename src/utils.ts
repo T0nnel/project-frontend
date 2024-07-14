@@ -11,6 +11,7 @@ export const loadStates = () => {
     }
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const saveState = (state: any) => {
     try {
         const serializedState = JSON.stringify(state)

@@ -39,7 +39,7 @@ export const Register = () => {
         }
 
         const user = { firstName, lastName, email, password, persona };
-        fetch('http://localhost:5000/api/register', {
+        fetch('https://project-backend-2-fgej.onrender.com/api/register', {
             method: 'POST',
             body: JSON.stringify(user),
             headers: {

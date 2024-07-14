@@ -22,7 +22,7 @@ export const Contact: React.FC = () => {
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         try {
-            const response = await fetch('http://localhost:5000/contact', {
+            const response = await fetch('https://project-backend-2-fgej.onrender.com/contact', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
