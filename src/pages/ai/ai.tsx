@@ -31,9 +31,19 @@ export const AiProduct: React.FC = () => {
     return (
         <div>
             <h1>AI Data</h1>
-            <pre>{JSON.stringify(data, null, 2)}</pre> {/* Display data as formatted JSON */}
+            {Array.isArray(data) ? ( // Check if data is an array
+                <ul>
+                    {data.map((item: any, index: number) => (
+                        <li key={index}>
+                            <h2>{item.name || 'Unnamed Item'}</h2>
+                            <p>{item.description || 'No description available.'}</p>
+                            <p>Price: {item.price || 'N/A'}</p>
+                        </li>
+                    ))}
+                </ul>
+            ) : (
+                <pre>{JSON.stringify(data, null, 2)}</pre> // Fallback for non-array data
+            )}
         </div>
     );
 };
-
-
