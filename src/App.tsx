@@ -10,7 +10,7 @@ import { CropCard } from './pages/cards/Cards'
 import {BuyerHome} from './pages/Home/BuyerHome'
 import { Buy } from './pages/Home/buy'
 import { SellPage } from './pages/sell/sell'
-import { MyList } from './mylist/mylistpage'
+import { MyList } from './pages/mylist/mylistpage'
 import { DefaultHome } from './pages/Home/DefaultHome'
 import { ProductProvider } from './pages/context/productcontext'
 
