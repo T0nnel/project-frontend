@@ -56,7 +56,7 @@ nav{
 .header1{
     width: 100%;
     min-height: 100vh;
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.0)), url("../../public/images/b2.png");
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.0)), url("/images/b2.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -206,7 +206,7 @@ iframe{
 .motto{
     width: 100%;
     min-height: 80vh;
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.0)), url("../../public/images/b3.png");
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.0)), url("/images/b3.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
