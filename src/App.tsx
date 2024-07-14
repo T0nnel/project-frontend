@@ -12,12 +12,14 @@ import { Buy } from './pages/Home/buy'
 import { SellPage } from './pages/sell/sell'
 import { MyList } from './mylist/mylistpage'
 import { DefaultHome } from './pages/Home/DefaultHome'
+import { ProductProvider } from './pages/context/productcontext'
 
 
 
 function App() {
   return (
    <div className='App'>
+    <ProductProvider>
     <Router>
     <div>
     <Routes>
@@ -31,7 +33,7 @@ function App() {
       <Route path='/cards' element={ <CropCard/>}/>
       <Route path="/buyerhome" element={<BuyerHome />} />
       <Route path="/buy" element={<Buy />} />
-      <Route path="/sell" element={<SellPage />} />
+      <Route path="/sellpage" element={<SellPage />} />
       <Route path="/list" element={<MyList />} />
       <Route path="/defhome" element={<DefaultHome />} />
 
@@ -39,6 +41,7 @@ function App() {
     </div>
     <Footer />
     </Router>
+    </ProductProvider>
    </div>
   )
 }

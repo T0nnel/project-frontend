@@ -17,7 +17,7 @@ import './landingpage.css'
         <li ><Link to={'/register'}>Sign Up</Link></li>
         <li ><Link to={'/login'}>Log In</Link></li>
         <li><Link to={'/contact'}>Contact</Link></li>
-        <li><Link to={'/sell'}>Sell</Link></li>
+        <li><Link to={'/sellpage'}>Sell</Link></li>
       </ul>
       </div>
       </nav>
