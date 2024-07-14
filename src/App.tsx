@@ -10,7 +10,6 @@ import { CropCard } from './pages/cards/Cards'
 import {BuyerHome} from './pages/Home/BuyerHome'
 import { Buy } from './pages/Home/buy'
 import { SellPage } from './pages/sell/sell'
-import { ProductProvider } from './pages/context/productcontext'
 import { MyList } from './mylist/mylistpage'
 import { DefaultHome } from './pages/Home/DefaultHome'
 
@@ -19,7 +18,6 @@ import { DefaultHome } from './pages/Home/DefaultHome'
 function App() {
   return (
    <div className='App'>
-    <ProductProvider>
     <Router>
     <div>
     <Routes>
@@ -41,7 +39,6 @@ function App() {
     </div>
     <Footer />
     </Router>
-    </ProductProvider>
    </div>
   )
 }
