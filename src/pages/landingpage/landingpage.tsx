@@ -9,7 +9,7 @@ import './landingpage.css'
     <>
       <div className='header1'> 
       <div className='header2'>
-    <a href=""><img src="../../public/images/p2.png" alt="" /></a>
+    <a href=""><img src="/images/p2.png" alt="" /></a>
       <nav>
       <div className="nav-links">
       <ul>
@@ -40,17 +40,17 @@ import './landingpage.css'
       <h1>How can we Help</h1>
       <div className="part2">
       <section className='sec1'>
-        <img src="../../public/images/icon2.png" alt="" />
+        <img src="/images/icon2.png" alt="" />
         <h2>Amazing products</h2>
         <p>Our agricultural products stand out with exceptional quality and freshness, meticulously cultivated and harvested to exceed industry standards. From vibrant fruits and vegetables bursting with flavor to robust grains and meats, each product embodies our commitment to excellence in agriculture.</p>
       </section>
       <section className='sec2'>
-        <img src="../../public/images/icon1.png" alt="" />
+        <img src="/images/icon1.png" alt="" />
         <h2>Analytics and reports</h2>
         <p>We excel in analytics and reporting, leveraging advanced tools to deliver precise insights. Our data-driven approach optimizes operations and enhances agricultural productivity, ensuring informed decision-making for sustained success.</p>
       </section>
       <section className='sec2'>
-        <img src="../../public/images/icon3fr.png" alt="" />
+        <img src="/images/icon3fr.png" alt="" />
         <h2>Support</h2>
         <p>Our dedicated team provides robust support, offering expert guidance and responsive assistance for all agricultural needs. With experienced advisors and a committed customer service team, we ensure reliable support to help you achieve your goals efficiently and effectively.</p>
       </section>
@@ -62,7 +62,7 @@ import './landingpage.css'
     <div className="link1">
       <h2>Assistance</h2>
       <p>If you want to receive emails with recent updates about our site and whats new.<br/>Follow the link below and fill the form :P</p>
-     <a href="https://forms.gle/XbQjuKhSKNLquRUdA"><img src="../../public/images/b4.png" alt="" /></a>
+     <a href="https://forms.gle/XbQjuKhSKNLquRUdA"><img src="/images/b4.png" alt="" /></a>
     </div>
   </>
   )

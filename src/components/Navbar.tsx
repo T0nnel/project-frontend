@@ -10,7 +10,7 @@ export const Navbar =() => {
         <div className='header3'>
         <div className='header4'>
       
-        <Link to={'/defhome'}>  <img src="../../public/images/p2.png" alt="" /></Link>
+        <Link to={'/defhome'}>  <img src="/images/p2.png" alt="" /></Link>
             <nav>
             <div className="nav-link">
             <ul>

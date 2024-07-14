@@ -7,7 +7,7 @@ export const Navigation = () => {
       <div className='header3'>
         <div className='header4'>
           <Link to={'/defhome'}>
-            <img src="../../public/images/p2.png" alt="Logo" />
+            <img src="/images/p2.png" alt="Logo" />
           </Link>
           <nav>
             <div className="nav-link">
