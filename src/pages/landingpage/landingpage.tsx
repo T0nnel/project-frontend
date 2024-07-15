@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './landingpage.css';
+import './landingmobile.css';
 
 export const Landingpage = () => {
   const [iframeVisible, setIframeVisible] = useState(false);
@@ -20,18 +21,18 @@ export const Landingpage = () => {
             <div className="nav-links">
               <ul>
                 <li><Link to={'/defhome'}>Home</Link></li>
-                <li><Link to={'/register'}>Sign Up</Link></li>
-                <li><Link to={'/login'}>Log In</Link></li>
-                <li><Link to={'/contact'}>Contact</Link></li>
-                <li><Link to={'/sellpage'}>Sell</Link></li>
+                <li><Link className='sign' to={'/register'}>Sign Up</Link></li>
+                <li><Link className='remove' to={'/login'}>Log In</Link></li>
+                <li><Link className="remove" to={'/contact'}>Contact</Link></li>
+                <li><Link className='sell' to={'/sellpage'}>Sell</Link></li>
               </ul>
             </div>
           </nav>
           <h1>AgriGrow</h1>
           <p>
-            Welcome to the AgriGrow Marketplace. Your trusted online agricultural marketplace. 
+            Welcome to the AgriGrow Marketplace.<div className='edit'> Your trusted online agricultural marketplace. 
             We connect farmers, suppliers, and consumers, streamlining the buying and selling of 
-            fresh produce and farming equipment. We are committed to quality, transparency, and 
+            fresh produce and farming equipment.</div> We are committed to quality, transparency, and 
             sustainability. We support the growth of agricultural businesses for a healthier future. 
             Join us in revolutionizing agriculture.
           </p>
@@ -55,10 +56,10 @@ export const Landingpage = () => {
             Farmers face significant losses when they lack direct connections to their suppliers. 
             Without direct contact, farmers may encounter challenges such as delayed responses to market 
             demands, leading to surplus or scarcity of produce. Moreover, intermediaries often take a 
-            substantial portion of profits, reducing the farmers' earnings. Direct connections enable 
+            substantial portion of profits, reducing the farmers' earnings. <div className="edit">Direct connections enable 
             farmers to negotiate fair prices, access timely information on market trends, and establish 
             long-term partnerships for stable income. By bypassing intermediaries, farmers can also 
-            ensure the quality and freshness of their products, enhancing consumer trust and satisfaction. 
+            ensure the quality and freshness of their products, enhancing consumer trust and satisfaction.</div> 
             Ultimately, direct supplier connections empower farmers with greater control over their livelihoods 
             and economic stability.
           </p>
@@ -79,7 +80,7 @@ export const Landingpage = () => {
           </section>
           <section className='sec2'>
             <img src="/images/icon1.png" alt="" />
-            <h2>Analytics and reports</h2>
+            <h2>Analytics and Reports</h2>
             <p>
               We excel in analytics and reporting, leveraging advanced tools to deliver precise insights. 
               Our data-driven approach optimizes operations and enhances agricultural productivity, ensuring 
