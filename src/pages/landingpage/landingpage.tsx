@@ -35,8 +35,8 @@ export const Landingpage = () => {
          
           <h1>AgriGrow</h1>
           <p>
-            Welcome to the AgriGrow Marketplace.<div className='edit'> Your trusted online agricultural marketplace. 
-            We connect farmers, suppliers, and consumers, streamlining the buying and selling of 
+            Welcome to the AgriGrow Marketplace. Your trusted online agricultural marketplace. 
+            We connect farmers, suppliers, and consumers<div className='edit'> streamlining the buying and selling of 
             fresh produce and farming equipment.</div> We are committed to quality, transparency, and 
             sustainability. We support the growth of agricultural businesses for a healthier future. 
             Join us in revolutionizing agriculture.
