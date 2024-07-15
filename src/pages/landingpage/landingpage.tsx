@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './landingpage.css';
 import './landingmobile.css';
+import { Navbarmobile } from '../../components/navbarmobile/navbarmobile';
 
 export const Landingpage = () => {
   const [iframeVisible, setIframeVisible] = useState(false);
@@ -17,6 +18,9 @@ export const Landingpage = () => {
           <a href="">
             <img src="/images/p2.png" alt="" />
           </a>
+          <div className='mobibar'>
+          <Navbarmobile/>
+          </div>
           <nav>
             <div className="nav-links">
               <ul>
@@ -28,6 +32,7 @@ export const Landingpage = () => {
               </ul>
             </div>
           </nav>
+         
           <h1>AgriGrow</h1>
           <p>
             Welcome to the AgriGrow Marketplace.<div className='edit'> Your trusted online agricultural marketplace. 

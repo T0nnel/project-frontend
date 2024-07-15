@@ -19,15 +19,12 @@ box-shadow: 0 0 3px gray;
     width: 230px;
     margin-top: 40px;
 }
-.remove{
+.nav-links{
     display: none;
 }
-.sign{
-    margin-left: 0px;
-    margin-top: -10px;
-}
-.sell{
-   margin-left:-200px;
+.mobibar{
+    margin-top:-170px;
+    margin-bottom: 140px;
 }
 .header1 h1{
     font-family: "Open Sans", sans-serif;

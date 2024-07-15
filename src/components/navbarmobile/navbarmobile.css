@@ -1,0 +1,61 @@
+nav {
+  background-color:transparent;
+  padding: 10px;
+  position: relative;
+}
+
+.hamburger {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  display: none; /* Hidden by default */
+  margin-left:300px;
+}
+
+.nav-links101 {
+  display: none; /* Hide by default */
+  flex-direction: column; /* Stack the links */
+  position: absolute;
+  top: 50px; /* Adjust based on your layout */
+  left: 0;
+  background-color:rgba(0,0,0,0.4);
+  width: 100%;
+}
+
+.nav-links101.open {
+  display: flex; /* Show when open */
+}
+
+.nav-links101 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links101 li {
+  padding: 15px;
+}
+
+.nav-links101 a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links101 a:hover {
+  background-color: #575757; /* Change color on hover */
+}
+
+/* Media Query for screens 483px or smaller */
+@media (max-width: 483px) {
+  .hamburger {
+    display: inline-block; /* Show hamburger icon */
+  }
+
+  .nav-links101 {
+    display: none; /* Ensure links are hidden by default */
+  }
+
+  .nav-links101.open {
+    display: flex; /* Show when the menu is open */
+  }
+}
